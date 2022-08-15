@@ -8,15 +8,15 @@ Scanner bar = new Scanner(System.in);
 
 String kullaniciadi, sifre, yenisifre, sec;
 
-System.out.print("Kullanici Adi :");
+    System.out.print("Kullanici Adi :");
 
-kullaniciadi = bar.nextLine();
+    kullaniciadi = bar.nextLine();
 
-System.out.print("Sifre :");
+    System.out.print("Sifre :");
         
-sifre = bar.nextLine();
-
-    if ((kullaniciadi.equals("Patika") && sifre.equals("Github5545"))) {
+    sifre = bar.nextLine();
+    
+    if ((kullaniciadi.equals("Patika") && sifre.equals("Github5545")))  {
     System.out.print("Giris Yapıldı");
     } 
     else {
